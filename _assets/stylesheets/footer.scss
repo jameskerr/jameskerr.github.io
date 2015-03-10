@@ -1,0 +1,31 @@
+.site-footer {
+	background: $black;
+	color: lighten($black, 30%);
+	padding: 30px 0;
+	box-shadow: inset 0px 6px 3px -3px rgba(0,0,0,1);
+	font-size: 80%;
+}
+
+.site-footer .wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.site-footer ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.site-footer li {
+	margin-bottom: 15px;
+}
+
+.site-footer a {
+	color: $green;
+}
+
+.site-footer {
+	.site-nav .slash {
+		display: none;
+	}
+}

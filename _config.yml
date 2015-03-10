@@ -1,0 +1,17 @@
+# Site settings
+title: James Kerr | Website Designer
+email: jkerr838@gmail.com
+description: "I create websites, apps, and software with an intense focus on blending great design with useful application."  
+url: "http://jameskerr.info" # the base hostname & protocol for your site
+twitter_username: jkerr838
+github_username:  jameskerr
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - Procfile
+  - Rakefile
+
+# Build settings
+markdown: kramdown

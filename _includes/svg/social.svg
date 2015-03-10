@@ -1,0 +1,19 @@
+<svg width="35px" height="40px" viewBox="0 0 35 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>social-09</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-298.000000, -255.000000)">
+            <g id="social-09" sketch:type="MSLayerGroup" transform="translate(284.000000, 244.000000)">
+                <g id="social" transform="translate(14.000000, 10.000000)" sketch:type="MSShapeGroup">
+                    <g id="Group">
+                        <path d="M34.942,16.343 C35.145,15.13 34.803,13.891 34.009,12.952 C33.214,12.014 32.047,11.474 30.82,11.474 L24.56,11.474 C25.292,9.584 25.768,7.676 26.209,5.665 C26.489,3.611 26.364,2.003 24.712,1.175 C24.315,0.978 23.857,0.945 23.437,1.083 C23.015,1.226 22.667,1.525 22.468,1.923 C21.245,5.742 19.159,9.854 17.044,12.562 C14.931,15.269 11.365,18.586 11.365,18.586 L15.683,31.542 L28.866,31.542 C30.911,31.542 32.655,30.064 32.991,28.048 L34.942,16.343 L34.942,16.343 Z" id="Shape" fill="#53585F"></path>
+                        <path d="M7.888,40.94 C7.511,41.066 7.099,41.037 6.743,40.859 C6.387,40.681 6.116,40.369 5.99,39.991 L0.121,22.377 C-0.142,21.591 0.283,20.742 1.069,20.48 L5.423,19.029 C5.8,18.903 6.212,18.932 6.568,19.11 C6.924,19.288 7.195,19.6 7.321,19.978 L13.191,37.592 C13.454,38.378 13.029,39.227 12.243,39.489 L7.888,40.94 L7.888,40.94 Z" id="Shape" fill="#70BF41"></path>
+                        <circle id="Oval" fill="#53585F" cx="8.854" cy="36.372" r="2.096"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

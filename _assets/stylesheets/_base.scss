@@ -1,0 +1,84 @@
+body {
+	font-family: "museo-sans", sans-serif;
+}
+
+.green {
+	color: $green;
+}
+
+.dark-gray {
+	color: $dark-gray;
+}
+
+svg {
+	width: 24px;
+	height: 24px;
+}
+
+a {
+	text-decoration: none;
+	color: $green;
+}
+
+.btn { 
+	min-height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	display: inline-block;
+	color: white;
+	border-radius: 0px 0px 2px 2px;
+	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
+	position: relative;
+	border: none;
+	&:active {
+		top: 3px;
+	}
+}
+
+.btn-primary {
+	background: $green;
+	border-bottom: 3px solid darken($green, 20%);
+	&:hover {
+		background: lighten($green, 8%);
+		border-bottom: 3px solid darken($green, 15%);
+	}
+	&:active {
+		background: $green;
+		border-bottom: none;
+	}
+}
+
+.btn-secondary {
+	color: $dark-gray;
+	background: $light-gray;
+	border-bottom: 3px solid darken($light-gray, 18%);
+	&:hover {
+		background: lighten($light-gray, 10%);
+		border-bottom: 3px solid darken($light-gray, 9%);
+	}
+	&:active {
+		background: $light-gray;
+		border-bottom: none;
+	}
+}
+
+.field {
+	margin-bottom: 16px;
+}
+
+.field label {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 6px;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	border: none;
+	color: $dark-gray;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.5);
+	background: $light-gray;
+}

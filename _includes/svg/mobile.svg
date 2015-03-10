@@ -1,0 +1,19 @@
+<svg width="24px" height="33px" viewBox="0 0 24 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>business-12</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-240.000000, -259.000000)">
+            <g id="business-12" sketch:type="MSLayerGroup" transform="translate(220.000000, 244.000000)">
+                <g id="business" transform="translate(20.000000, 15.000000)" sketch:type="MSShapeGroup">
+                    <path d="M24,30 C24,31.65 22.65,33 21,33 L3,33 C1.35,33 0,31.65 0,30 L0,3 C0,1.343 1.343,0 3,0 L21,0 C22.65,0 24,1.35 24,3 L24,30 L24,30 Z" id="Shape" fill="#53585F"></path>
+                    <path d="M21,25.001 C21,25.551 20.55,26.001 20,26.001 L4,26.001 C3.45,26.001 3,25.551 3,25.001 L3,4.001 C3,3.451 3.45,3.001 4,3.001 L20,3.001 C20.55,3.001 21,3.451 21,4.001 L21,25.001 L21,25.001 Z" id="Shape" fill="#589DA8"></path>
+                    <path d="M14,30 C14,30.553 13.552,31 13,31 L11,31 C10.448,31 10,30.553 10,30 L10,29 C10,28.447 10.448,28 11,28 L13,28 C13.552,28 14,28.447 14,29 L14,30 L14,30 Z" id="Shape" fill="#70BF41"></path>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(8.425446, 8.426204) rotate(225.000000) translate(-8.425446, -8.426204) " x="7.92545125" y="5.28573447" width="0.99999041" height="6.28093976"></rect>
+                    <rect id="Rectangle-path" fill="#FFFFFF" transform="translate(6.658621, 6.897025) rotate(225.040515) translate(-6.658621, -6.897025) " x="6.15812577" y="5.12904171" width="1.00099065" height="3.53596697"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

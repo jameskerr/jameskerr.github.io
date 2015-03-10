@@ -1,0 +1,19 @@
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>social-04</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup" transform="translate(-361.000000, -257.000000)">
+            <g id="social-04" sketch:type="MSLayerGroup" transform="translate(348.000000, 244.000000)">
+                <g id="social" transform="translate(13.000000, 13.000000)" sketch:type="MSShapeGroup">
+                    <circle id="Oval" fill="#53585F" cx="14.001" cy="14" r="14"></circle>
+                    <circle id="Oval" fill="#FFFFFF" cx="14.001" cy="14.001" r="10"></circle>
+                    <path d="M16.139,6.206 C15.422,5.995 14.664,5.878 13.877,5.878 C9.457,5.878 5.877,9.458 5.877,13.878 C5.877,14.663 5.996,15.423 6.207,16.14 C6.955,11.304 11.303,6.955 16.139,6.206 L16.139,6.206 Z" id="Shape" fill="#82AD4E"></path>
+                    <rect id="Rectangle-path" fill="#4F6366" transform="translate(24.607627, 24.606586) rotate(-45.000000) translate(-24.607627, -24.606586) " x="22.1081505" y="21.6061146" width="4.99895206" height="6.00094245"></rect>
+                    <path d="M35.254,29.597 C35.816,30.159 36.133,30.923 36.133,31.718 C36.133,32.514 35.818,33.277 35.255,33.84 L33.841,35.254 C32.669,36.425 30.77,36.425 29.599,35.254 L23.902,29.558 C23.511,29.167 23.511,28.535 23.902,28.144 L28.143,23.901 C28.331,23.713 28.584,23.608 28.85,23.608 C29.116,23.608 29.37,23.713 29.557,23.901 L35.254,29.597 L35.254,29.597 Z" id="Shape" fill="#70BF41"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

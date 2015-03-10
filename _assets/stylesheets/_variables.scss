@@ -1,0 +1,16 @@
+/* COLORS */
+$green:      #70BF41;
+$dark-gray:  #53585F;
+$light-gray: #F3F3F3;
+$black:      #222222;
+
+$xs: 460px;
+$s: 680px;
+$m: 740px;
+$l: 960px;
+
+@mixin bp($bp) {
+	@media(min-width: $bp) {
+		@content;
+	}
+}
