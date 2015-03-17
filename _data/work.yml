@@ -1,0 +1,29 @@
+- title: "Text & Drive"
+  description: An android app that auto-replies to text messages for you while you drive.
+  source: https://github.com/jameskerr/textdrive
+  link: https://github.com/jameskerr/textdrive
+  photo: textdrive.png
+
+- title: "Chapman Events CMS"
+  description: An android app that auto-replies to text messages for you while you drive.
+  source: https://github.com/jameskerr/textdrive
+  link: https://github.com/jameskerr/textdrive
+  photo: events.png
+
+- title: "Chapman Social Hub"
+  description: An android app that auto-replies to text messages for you while you drive.
+  source: https://github.com/jameskerr/textdrive
+  link: https://github.com/jameskerr/textdrive
+  photo: social.png
+
+- title: "Series25 API Ruby Gem"
+  description: An android app that auto-replies to text messages for you while you drive.
+  source: https://github.com/jameskerr/textdrive
+  link: https://github.com/jameskerr/textdrive
+  photo: 25live.png
+
+- title: "University Tickets API Ruby Gem"
+  description: An android app that auto-replies to text messages for you while you drive.
+  source: https://github.com/jameskerr/textdrive
+  link: https://github.com/jameskerr/textdrive
+  photo: university_tickets.png
