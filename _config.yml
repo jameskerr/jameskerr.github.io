@@ -1,10 +1,17 @@
 # Site settings
-title: James Kerr | Website Designer
+title: James Kerr | Website Developer/Software Engineer
+description: "James Kerr creates websites, apps, and software with an intense focus on blending great design with useful application."  
 email: jkerr838@gmail.com
-description: "I create websites, apps, and software with an intense focus on blending great design with useful application."  
 url: "http://jameskerr.info" # the base hostname & protocol for your site
 twitter_username: jkerr838
 github_username:  jameskerr
+
+nav:
+  - Home:    /
+  - Work:    /work
+  - About:   /about
+  - Blog:    /blog
+  - Contact: /contact
 
 exclude:
   - Gemfile

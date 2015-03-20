@@ -1,13 +1,11 @@
 <nav class="site-nav">
   <ul>
-  	<li><a href="/">Home</a></li>
-    <span class="slash">/</span>
-    <li><a href="/work.html">Work</a></li>
-    <span class="slash">/</span>
-    <li><a href="/about.html">About</a></li>
-    <span class="slash">/</span>
-    <li><a href="/blog.html">Blog</a></li>
-    <span class="slash">/</span>
-    <li><a href="/contact.html">Contact</a></li>
+  {% for items in site.nav %}
+    {% for link in items %}
+    	{% capture formal_link %}{{ link[1] }}/index.html{% endcapture %}
+      <li {% if link[1] == page.url or formal_link == page.url %}class="active"{% endif %}><a href="{{link[1]}}">{{link[0]}}</a>
+      </li>{% unless link[0] == 'Contact' %}<span class="slash">/</span>{% endunless %}
+    {% endfor %}
+  {% endfor %}
   </ul>
 </nav>

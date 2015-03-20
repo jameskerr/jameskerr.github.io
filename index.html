@@ -5,16 +5,16 @@ layout: default
 <main class="home">
   <section class="primary bg-dark-gray">
     <div class="wrapper">
-    	<h1 class="tagline tagline-light">I create <strong>websites</strong>, <strong>apps</strong>, and <strong>software</strong><br />blending great design with powerful application.</h1>
+    	<h1 class="tagline tagline-light">I create <strong>websites</strong>, <strong>apps</strong>, and <strong>software</strong><br class="hide-small"/> blending great design with powerful application.</h1>
       <div class="actions">
-        <a href="/work.html" class="btn btn-primary">Check Out My Work</a>
+        <a href="/work" class="btn btn-primary">Check Out My Work</a>
         <a href="#get-in-touch" class="btn btn-secondary">Get In Touch</a>
       </div>
     </div>
 
     <div class="bg-image-caption">Currently in Orange County, CA</div>
 
-    {% image james-andrew-kerr.jpg class="section-overlap-img" %}
+    {% image james_andrew_kerr.jpg class="section-overlap-img" %}
   </section>
 
   <section>
@@ -60,31 +60,10 @@ layout: default
     </div>
   </div>
 
-  <section id="get-in-touch" class="contact-section bg-dark-gray">
+  <section id="get-in-touch" class="contact-section content bg-dark-gray">
     <div class="wrapper contact-form">
       <h3 class="tagline">Let's chat.</h3>
-      <form accept-charset="UTF-8" action="https://formkeep.com/f/6871487ecb57" method="POST">
-        <input type="hidden" name="utf8" value="✓">
-        <div class="field">
-          <label>Your Name:</label>
-          <input class="form-control" name="name" type="text" placeholder="The name by which I shall call you..."/>
-        </div>
-
-        <div class="field">
-          <label>Your Email:</label>
-          <input class="form-control" type="email" name="email" placeholder="Your internet mailing address..." />
-        </div>
-
-        <div class="field">
-          <label>Your Message:</label>
-          <textarea rows="10" class="form-control" name="message" placeholder="Your message to me..."></textarea>
-        </div>
-
-        <div class="field">
-          <button type="submit" class="btn btn-primary">Send</button>
-        </div>
-    
-      </form>
+      <a class="contact-section--email" href="mailto:jkerr838@gmail.com">jkerr838@gmail.com</a>
     </div>
   </section>
 </main>

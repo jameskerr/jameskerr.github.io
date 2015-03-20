@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 date: 2014-01-05 18:00
 layout: post
 excerpt: All my notes from my interterm computer graphics class at Chapman University.  Professor is Dr. Linstead.  Main topic is the OpenGL library.

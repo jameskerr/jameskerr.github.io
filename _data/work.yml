@@ -1,29 +1,20 @@
+
+- title: "Chapman Social Hub"
+  description: "A social media aggregator built on Rails & Node used to live-stream posts from Chapman's official accounts."
+  link: https://social.chapman.edu
+  photo: chapman_social.png
+  
+- title: "Chapman Events CMS"
+  description: Chapman University's official public calendar of events built on Rails and AngularJS.
+  link: https://events.chapman.edu
+  photo: chapman_events.png
+
+- title: "Series25 API Ruby Gem"
+  description: An API client that transforms XML responses from the Series25 web service into ruby objects.
+  source: https://github.com/chapmanu/series25
+  photo: rubygems.png
+
 - title: "Text & Drive"
   description: An android app that auto-replies to text messages for you while you drive.
   source: https://github.com/jameskerr/textdrive
-  link: https://github.com/jameskerr/textdrive
   photo: textdrive.png
-
-- title: "Chapman Events CMS"
-  description: An android app that auto-replies to text messages for you while you drive.
-  source: https://github.com/jameskerr/textdrive
-  link: https://github.com/jameskerr/textdrive
-  photo: events.png
-
-- title: "Chapman Social Hub"
-  description: An android app that auto-replies to text messages for you while you drive.
-  source: https://github.com/jameskerr/textdrive
-  link: https://github.com/jameskerr/textdrive
-  photo: social.png
-
-- title: "Series25 API Ruby Gem"
-  description: An android app that auto-replies to text messages for you while you drive.
-  source: https://github.com/jameskerr/textdrive
-  link: https://github.com/jameskerr/textdrive
-  photo: 25live.png
-
-- title: "University Tickets API Ruby Gem"
-  description: An android app that auto-replies to text messages for you while you drive.
-  source: https://github.com/jameskerr/textdrive
-  link: https://github.com/jameskerr/textdrive
-  photo: university_tickets.png

@@ -2,12 +2,15 @@
 	text-align: center;
 }
 
+.work-item:first-child {
+	padding-top: 0;
+}
+
 .work-item {
 	padding: 70px 0;
 	text-align: right;
 	display: flex;
 	justify-content: space-between;
-
 }
 
 .work-item--info {
@@ -16,6 +19,7 @@
 
 .work-item--title {
 	font-size: 200%;
+	margin-top: 0;
 }
 
 .work-item--photo {

@@ -18,6 +18,13 @@ h1,h2,h3,h4,h5,h6 {
 	color: $dark-gray;
 }
 
+.hide-small {
+	// display: none;
+	// @media (max-width: $s) {
+	// 	display: initial;
+	// }
+}
+
 svg {
 	width: 24px;
 	height: 24px;
@@ -30,9 +37,19 @@ a {
 
 .content {
 	p, ul, li {
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 30px;
 	}
+
+	a:hover { text-decoration: underline; }
+
+	h2, h3, h4, h5, h6 {
+		margin-top: 2em;
+	}
+}
+
+main {
+	padding-bottom: 70px;
 }
 
 
@@ -42,24 +59,30 @@ a {
 	padding: 0 20px;
 	display: inline-block;
 	color: white;
-	border-radius: 0px 0px 2px 2px;
-	box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
 	position: relative;
 	border: none;
+	border-bottom: none;
+	&:hover {
+		box-shadow: 0px 10px 10px -4px rgba(0, 0, 0, 0.1);
+	}
 	&:active {
 		top: 3px;
+		box-shadow: none;
 	}
+}
+
+a.btn:hover {
+	text-decoration: none;
 }
 
 .btn-primary {
 	background: $green;
-	border-bottom: 3px solid darken($green, 20%);
+	border-bottom: 3px solid darken($green, 15%);
 	&:hover {
-		background: lighten($green, 8%);
-		border-bottom: 3px solid darken($green, 15%);
+		background: lighten($green, 5%);
 	}
 	&:active {
-		background: $green;
+		background: darken($green, 5%);
 		border-bottom: none;
 	}
 }
@@ -67,13 +90,12 @@ a {
 .btn-secondary {
 	color: $dark-gray;
 	background: $light-gray;
-	border-bottom: 3px solid darken($light-gray, 18%);
+	border-bottom: 3px solid darken($light-gray, 15%);
 	&:hover {
-		background: lighten($light-gray, 10%);
-		border-bottom: 3px solid darken($light-gray, 9%);
+		background: lighten($light-gray, 2%);
 	}
 	&:active {
-		background: $light-gray;
+		background: darken($light-gray, 5%);
 		border-bottom: none;
 	}
 }
