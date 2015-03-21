@@ -1,14 +1,27 @@
-.overlay {
-	background: $black;
-	position: fixed;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	z-index: 888;
-	opacity: 0.5;
+#nav-menu {
 	@include bp($xs) {
 		display: none;
+	}
+}
+
+.drawer-overlay {
+	opacity: 0;
+	transition: opacity 2s;
+	&.drawer-overlay__on {
+		background: $black;
+		z-index: 888;
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		position: fixed;
+		opacity: 0.8;
+		transition: opacity 200ms;
+		display: block;
+		@include bp($xs) {
+			display: none;
+		}
 	}
 }
 
@@ -51,36 +64,47 @@
 }
 
 .site-header .site-nav {
+	$drawer-width: 240px;
 	background: white;
 	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	width: 50%;
+	top: -$drawer-width / 2;
+	right: -$drawer-width;
+	width: $drawer-width;
 	z-index: 999;
-	box-shadow: 0px -5px 5px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 0 0 0 5px;
+
 	@include bp($xs) {
 		box-shadow: none;
 		width: auto;
 		position: static;
 		background: none;
-		display: block;
 	}
 }
 
+.site-header .site-nav.site-nav__open {
+	transition: right 200ms ease-in-out, top 200ms ease-in-out;
+	top: 0;
+	right: 0;
+	overflow-y: scroll;
+}
+
 .site-header .site-nav ul {
-	flex-flow: column wrap;
 	list-style-type: none;
-	display: flex;
-	justify-content: space-between;
-	padding: 0;
+	display: block;
 	margin: 0;
-	text-align: center;
+	padding: 0;
+	height: 100%;
+	li { margin-bottom: 3px; }
+	li:last-child { margin-bottom: 0; }
 
 	@include bp($xs) {
+		margin: 0;
 		border-top: none;
 		width: 260px;
 		height: auto;
+		display: flex;
+		justify-content: space-between;
 		flex-flow: row wrap;
 	}
 
@@ -89,25 +113,37 @@
 	}
 }
 
+.site-header .site-nav a {	
+	font-size: 120%;
+	padding: 30px 0;
+	text-align: center;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.5);
 
+	@include bp($xs) {
+		box-shadow: none;
+		padding: 0;
+		font-size: 80%;
+	}
+}
 
 .site-nav a {
 	text-decoration: none;
 	text-transform: uppercase;
 	color: $green;
-	font-size: 80%;
 	display: inline-block;
 	width: 100%;
-	padding: 20px 0;
-	border-bottom: 1px solid $green;
 	&:hover { text-decoration: underline; }
 
-
 	@include bp($xs) {
+		box-shadow: none;
+		font-size: 80%;
 		width: auto;
 		padding: 0;
+		margin: 0;
 		display: inline;
 		border-bottom: none;
+		background: none;
+		box-shadow: none;
 	}
 
 	@include bp($s) {
