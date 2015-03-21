@@ -1,8 +1,9 @@
 require 'tmpdir'
 require 'launchy'
+require 'jekyll'
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "jameskerr/jameskerr.github.com"
+GITHUB_REPONAME = "jameskerr/jameskerr.github.io"
 
 
 desc "Serve the site locally for development"
