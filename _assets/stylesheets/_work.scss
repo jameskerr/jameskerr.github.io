@@ -32,31 +32,9 @@
 	display: block;
 	width: 90%;
 	height: 90%;
-	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
 	background-size: 0, cover;
 	background-position: top center;
-	transform-style: preserve-3d;
-	transform: rotateY(-25deg);
-	transition: transform 0.5s;
-
-	&:before {
-		content: '';
-		background: inherit;
-		position: absolute;
-		height: 100%;
-		width: 10px;
-		left: 100%;
-		bottom: 0;
-		background-size: cover, cover;
-		background-position: right;
-		transform: rotateY(90deg);
-		transform-origin: left;
-	}
-}
-
-.work-item--photo:hover a {
-	transform: rotateY(0deg) rotateX(0deg);
-	transform-origin: botton;
+	border-radius: 15px;
 }
 
 .work-item--photo span:before {
