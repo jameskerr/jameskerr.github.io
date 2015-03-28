@@ -71,7 +71,6 @@
 	right: -$drawer-width;
 	width: $drawer-width;
 	z-index: 999;
-	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
 	border-radius: 0 0 0 5px;
 
 	@include bp($xs) {
@@ -87,6 +86,7 @@
 	top: 0;
 	right: 0;
 	overflow-y: scroll;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .site-header .site-nav ul {
@@ -123,6 +123,10 @@
 		box-shadow: none;
 		padding: 0;
 		font-size: 80%;
+	}
+
+	@include bp($s) {
+		font-size: 100%;
 	}
 }
 

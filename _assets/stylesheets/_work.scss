@@ -30,7 +30,8 @@
 
 .work-item--photo a {
 	display: block;
-	width: 90%;
+	border: 20px solid $black;
+	width: 70%;
 	height: 90%;
 	background-size: 0, cover;
 	background-position: top center;

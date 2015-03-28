@@ -30,13 +30,6 @@ h1,h2,h3,h4,h5,h6 {
 	color: $dark-gray;
 }
 
-.hide-small {
-	// display: none;
-	// @media (max-width: $s) {
-	// 	display: initial;
-	// }
-}
-
 svg {
 	width: 24px;
 	height: 24px;
@@ -139,7 +132,7 @@ a.btn:hover {
 	padding: 30px 0;
 	color: white;
 	font-size: 150%;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 60px;
 	box-shadow: inset 0px -6px 3px -3px rgba(0,0,0,0.3);
 	position: relative;
