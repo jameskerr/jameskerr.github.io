@@ -131,7 +131,6 @@ GEM
     toml (0.1.2)
       parslet (~> 1.5.0)
     yajl-ruby (1.2.1)
-    yui-compressor (0.12.0)
 
 PLATFORMS
   ruby
@@ -145,4 +144,6 @@ DEPENDENCIES
   jekyll-assets
   launchy
   rake
-  yui-compressor
+
+BUNDLED WITH
+   1.10.6

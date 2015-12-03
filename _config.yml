@@ -27,6 +27,4 @@ redcarpet:
 
 # Asset settings
 assets:
-  js_compressor: yui
-  css_compressor: yui
   cachebust: hard

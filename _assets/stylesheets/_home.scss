@@ -19,9 +19,9 @@ main.home {
 
 .home .primary {
 	padding: 120px 0;
-	background-image: image-url('oc.jpg');
+	background-image: image-url('catalina.jpg');
 	background-size: cover;
-	background-position: bottom;
+	background-position: top;
 	position: relative;
 	&:before {
 		background: rgba(0,0,0,0.6);
@@ -50,6 +50,7 @@ main.home {
 	border-radius: 50%;
 	border: 3px solid $green;
 	position: absolute;
+	z-index: 1;
 	left: 50%;
 	bottom: 0%;
 	margin-left: -100px;
@@ -58,9 +59,8 @@ main.home {
 
 .home .tagline {
 	position: relative;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 38px;
+	font-size: 32px;
+	line-height: 46px;
 }
 
 .home .actions {
@@ -135,19 +135,16 @@ main.home {
 
 .home .contact-section {
 	padding: 70px 0 140px 0;
-	border-top: $green solid 5px;
+	border-top: $green solid 3px;
 
 	h3 {
 		margin-bottom: 80px;
 	}
 	.contact-section--email {
 		font-size: 24px;	
-		@include bp($s) {
-			font-size: 42px;	
-		}
-		
-		font-weight: bold;
-		color: white;
+		// @include bp($s) {
+		// 	font-size: 42px;	
+		// }
 	}
 }
 
