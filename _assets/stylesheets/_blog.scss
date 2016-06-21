@@ -47,11 +47,14 @@
 	line-height: 20px;
 	background: #F9F9F9;
 	border-radius: 3px;
-	padding: 3px 6px;
 }
 
 .post-body p {
 	margin-bottom: 1em;
+}
+
+.post-body p code {
+	padding: 3px 6px;
 }
 
 #disqus_thread {padding-top: 70px;}
