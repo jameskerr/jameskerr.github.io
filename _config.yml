@@ -1,10 +1,11 @@
 # Site settings
-title: James Kerr | Website Developer/Software Engineer
-description: "I creates websites, apps, and software with an intense focus on blending great design with powerful application."  
+title: James Kerr | Software Engineer
+description: "A Ruby on Rails developer in San Francisco, CA"
 email: jkerr838@gmail.com
 url: "http://jameskerr.info" # the base hostname & protocol for your site
 twitter_username: jkerr838
 github_username:  jameskerr
+my_face: james_andrew_kerr_2.jpg
 
 nav:
   - Home:    /
@@ -22,7 +23,7 @@ exclude:
 
 # Build settings
 markdown: redcarpet
-redcarpet: 
+redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 
 # Asset settings
