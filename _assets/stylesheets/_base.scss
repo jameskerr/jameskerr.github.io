@@ -11,7 +11,7 @@ body {
 
 	@include bp($xs) {
 		&.no-scroll {
-			position: static;	
+			position: static;
 		}
 	}
 }
@@ -19,7 +19,8 @@ body {
 
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: $header-font;	
+	font-family: $header-font;
+	line-height: 1.75;
 }
 
 .green {
@@ -43,7 +44,7 @@ a {
 .content {
 	p, ul, li {
 		font-size: 18px;
-		line-height: 30px;
+		line-height: 1.75;
 	}
 
 	a:hover { text-decoration: underline; }
@@ -59,7 +60,7 @@ main {
 }
 
 
-.btn { 
+.btn {
 	min-height: 40px;
 	line-height: 40px;
 	padding: 0 20px;

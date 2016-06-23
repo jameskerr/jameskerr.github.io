@@ -49,8 +49,14 @@
 	border-radius: 3px;
 }
 
-.post-body p {
+.post-body p,
+.post-body ul,
+.post-body ol {
 	margin-bottom: 1em;
+}
+
+.post-body li {
+	margin-left: 2em;
 }
 
 .post-body p code {
