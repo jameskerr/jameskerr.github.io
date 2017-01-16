@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complex Sorting in Rails
+title: Complex Sorting in ActiveRecord
 excerpt: The thought process behind creating a simple object to help deal with complex ActiveRecord ORDER BY queries with a strong focus on the Single Responsibility Principal.
 published: true
 categories: SQL Ruby ActiveRecord
