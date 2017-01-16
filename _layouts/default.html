@@ -4,6 +4,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{site.description}}{% endif %}">
   <meta name="viewport" content="initial-scale=1">
   <meta name="og:image" content="{{site.url}}{{ site.my_face | asset_path }}">
+  <meta name="og:url" content="{{site.url}}{{page.url}}">
 
 	<script src="//use.typekit.net/cla0hon.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
@@ -29,6 +30,4 @@
     {% include footer.html %}
     {% javascript site %}
   </body>
-
-
 </html>
