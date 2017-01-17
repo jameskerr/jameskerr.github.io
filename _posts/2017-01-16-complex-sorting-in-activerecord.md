@@ -13,7 +13,7 @@ I get excited about small objects when I program. I often open up files that are
 
 ```ruby
 User.order('name DESC, email')
-# => SELECT "users".* FROM "users" ORDER BY name DESC, email 
+# => SELECT "users".* FROM "users" ORDER BY name DESC, email
 ```
 
 My table of data had several columns that the user could order by. Like in an Excel spreadsheet, they wanted the ordering of previous columns to persist when ordering by a new column.
@@ -38,7 +38,7 @@ The PostgreSQL syntax to do this is simply to supply `NULLS FIRST` or `NULLS LAS
 
 Unfortunately, there were some empty strings in the location column that we wanted to treat the same as nulls.
 
-The syntax for this in PostgreSQL is pretty simple as well `NULL_IF(column_name, value)`. In our case, `NULL_IF(location, '')` would do the trick.
+The syntax for this in PostgreSQL is pretty simple as well `NULLIF(column_name, value)`. In our case, `NULLIF(location, '')` would do the trick.
 
 If the user asked to order first by **name** *ascending* then by **hire_date** *descending* then by **location** *descending*, the client would pass up parameters that look like this:
 
@@ -58,7 +58,7 @@ Based on these params, I needed to somehow generate code that looks like this:
 query.order(
   "name ASC NULLS LAST",
   "hire_date DESC NULLS LAST",
-  "NULL_IF(location, '') DESC NULLS FIRST"
+  "NULLIF(location, '') DESC NULLS FIRST"
 )
 ```
 
@@ -140,7 +140,7 @@ def order_by_args
 end
 
 def permitted_params
-  params.permit(orders: [:by, :direction])
+  params.permit(sort_orders: [:by, :direction])
 end
 ```
 
