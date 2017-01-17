@@ -38,7 +38,7 @@ The PostgreSQL syntax to do this is simply to supply `NULLS FIRST` or `NULLS LAS
 
 Unfortunately, there were some empty strings in the location column that we wanted to treat the same as nulls.
 
-The syntax for this in PostgreSQL is pretty simple as well `NULLIF(column_name, value)`. In our case, `NULLIF(location, '')` would do the trick.
+The [syntax for this in PostgreSQL](http://www.postgresqltutorial.com/postgresql-nullif/) is pretty simple as well `NULLIF(column_name, value)`. In our case, `NULLIF(location, '')` would do the trick.
 
 If the user asked to order first by **name** *ascending* then by **hire_date** *descending* then by **location** *descending*, the client would pass up parameters that look like this:
 
